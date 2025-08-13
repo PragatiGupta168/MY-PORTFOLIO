@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Set the character set for the document -->
+    <meta charset="UTF-8" />
+
+    <!-- Configure the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Ensure proper rendering and compatibility with IE -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Set the title of the document -->
+    <title>Pragati Gupta</title>
+
+    <!-- Link to the boxicons for icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Link to the custom stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header element containing navigation elements-->
+    <header>
+      <!-- Checkbox input for handling navigation state -->
+      <input type="checkbox" id="nav-check" />
+      <!-- Container for the head content -->
+      <div class="nav-header">
+        <!-- Navigation title-->
+        <div class="nav-title">Pragati Gupta</div>
+      </div>
+      <!-- Continaer for the navigation links -->
+      <div class="nav-links">
+        <!-- Navigation links wrapped in a nav element -->
+        <nav>
+          <a href="#projects" class="active"> Work</a>
+          <a href="#about"> About</a>
+          <a href="#contact"> Contact</a>
+        </nav>
+      </div>
+      <!-- Container for navigation button (burger menu) -->
+      <div class="nav-btn">
+        <!-- label associated with the checkbox for toggling the navigation -->
+        <label for="nav-check">
+          <!-- Span elements representing the burger menu lines-->
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+      <!-- hero section containing left and right sections -->
+      <section class="hero-section container">
+        <!-- Left section containing description and contact button -->
+        <div class="col">
+          <div class="hero__content">
+            <!-- Heading with a span for styling -->
+            <h1 class="heading-one">Hi, I am<br />Pragati Gupta.</h1>
+
+            <!-- Description paragraph about the front-end developer -->
+            <p class="color-offwhite">
+              "A Java-focused MERN stack enthusiast and front-end developer passionate about building intelligent, user-friendly, and interactive experiences."
+            </p>
+
+            <!-- Container for the contact button and social buttons -->
+            <div class="action-btn-container">
+              <!-- Contact Me button with a dot icon -->
+            <a href="mailto:pragatigupta168@gmail.com" class="btn-primary">
+    <span class="text-action">Contact Me</span>
+</a>
+                <span class="btn__dot">
+                  <i class="bx bx-up-arrow-alt"></i>
+                </span>
+              </a>
+
+              <!-- Social buttons container -->
+              <!-- LinkedIn social icon -->
+<a href="https://www.linkedin.com/in/pragati-gupta-770bb424b" class="btn-social" target="_blank">
+  <i class="bx bxl-linkedin"></i>
+</a>
+
+<!-- Github social icon -->
+<a href="https://github.com/PragatiGupta168/PragatiGupta168.git" class="btn-social" target="_blank">
+  <i class="bx bxl-github"></i>
+</a>
+          </div>
+          <div class="hero__scroll">
+            <p class="color-light-gray">Scroll down</p>
+          </div>
+        </div>
+
+        <!-- Right section containing an image -->
+        <div class="col">
+          <!-- Image of the front-end developer -->
+          <img src="images/profile.jpg" alt="Pragati Gupta" width="500" height="500">
+        </div>
+        
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- Section for the projects -->
+      <section class="projects-section container" id="projects">
+        <div class="projects__header">
+          <h2 class="heading-two">Featured Projects</h2>
+          <p class="color-offwhite">
+            Here are some of the selected projects that showcase my passion for
+            front-end development.
+          </p>
+        </div>
+
+        <div class="project__card-list">
+          <div class="project__card">
+            <a href="#" class="project__image__link">
+              <div class="project__image__container">
+                <span class="project__tag">Conceptual Work </span>
+                <figure class="project__image__wrapper">
+                  <img
+                    src="images/project1.png"
+                    alt="Online Learning Platform"
+                  />
+                </figure>
+              </div>
+            </a>
+
+            <div class="project__body">
+              <h3 class="project__title heading-three">
+                A Virtual ClassRoom
+              </h3>
+              <p class="project__description">
+                Collaborated with a team to design and develop a feature-rich Virtual Classroom Dashboard for an online learning platform.
+                Focused on creating a modern, responsive frontend that delivers a seamless experience for students, teachers, and parents. 
+                Implemented intuitive navigation, real-time course updates, and assignment tracking, ensuring users can easily manage their learning activities. Integrated interactive UI components, 
+                optimized for both desktop and mobile devices, to enhance engagement and accessibility.
+              </p>
+              <div class="project__info">
+                <h3 class="project__info__title heading-five">Project Info</h3>
+                <ul class="project__info__list">
+                  <li class="project__info__item">
+                    <div class="body-small">Year</div>
+                    <div class="color-offwhite body-small">2023</div>
+                  </li>
+                  <li class="project__info__item">
+                    <div class="body-small">Role</div>
+                    <div class="color-offwhite body-small">
+                      Front-end Developer
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="project__action">
+                <a href="#" class="link-primary">
+                  Live Demo
+                  <i class="bx bx-up-arrow-alt"></i>
+                </a>
+                <a href="#" class="link-primary">
+                  See on Github
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="project__card">
+            <a href="#" class="project__image__link">
+              <div class="project__image__container">
+                <span class="project__tag">Challenge</span>
+                <figure class="project__image__wrapper">
+                  <img
+                    src="images/project2.png"
+                    alt="Online Ride Booking"
+                  />
+                </figure>
+              </div>
+            </a>
+
+            <div class="project__body">
+              <h3 class="project__title heading-three">
+                ShaktiRide- Women to Women
+              </h3>
+              <p class="project__description">
+              Led the development of ShaktiRide, a women-exclusive ride-sharing platform built using the MERN stack. 
+              Oversaw the entire frontend and backend architecture, ensuring a secure, user-friendly, and responsive interface tailored to women’s safety and comfort.
+              Implemented features like real-time ride tracking, driver verification, in-app chat, and secure payment integration, 
+              while managing a team to deliver milestones on schedule. Focused on scalable backend APIs, modern UI design, and mobile-friendly responsiveness, 
+              ensuring a seamless experience across devices.
+            </p>
+              <div class="project__info">
+                <h3 class="project__info__title heading-five">Project Info</h3>
+                <ul class="project__info__list">
+                  <li class="project__info__item">
+                    <div class="body-small">Year</div>
+                    <div class="color-offwhite body-small">2025</div>
+                  </li>
+                  <li class="project__info__item">
+                    <div class="body-small">Role</div>
+                    <div class="color-offwhite body-small">
+                      Project Lead & Full-Stack Developer
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="project__action">
+                <a href="#" class="link-primary">
+                  Live Demo
+                  <i class="bx bx-up-arrow-alt"></i>
+                </a>
+                <a href="#" class="link-primary">
+                  See on Github
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of project__card-list -->
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- Section for short about -->
+      <section class="home__about-section container" id="about">
+        <div class="home__about-section__content">
+          <div class="home__about-section__content__body">
+            <p class="heading-four">
+              About Me
+            </p>
+            <p class="color-offwhite">
+              I’m <strong>Pragati Gupta</strong>, an <strong>AI/ML enthusiast and front-end developer</strong> passionate about building intelligent, user-friendly, and interactive experiences. Currently pursuing <strong>BTech in Artificial Intelligence and Machine Learning</strong> at <strong>Allenhouse Institute of Technology</strong>, I thrive on problem-solving and innovation. With expertise in <strong>Java, front-end development, and SQL</strong>, I continuously expand my skills in <strong>DSA, AI/ML, and backend technologies</strong>
+              <br><br>
+              <strong>“Technology is best when it brings people together.” – Matt Mullenweg</strong>
+            </p>
+            
+          </div>
+          <a href="about.html" class="link-primary"> More about me </a>
+        </div>
+        <div>
+          <img src="images/hero-image.jpg" alt="Pragati Gupta" width="350" height="600">
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- Section for the contact box -->
+      <section class="contact-section container" id="contact">
+        <div class="contact-section__hearder">
+          <h2 class="contact-section__hearder__title heading-two">
+            Let’s connect
+          </h2>
+          <p class="color-offwhite">
+            Say hello at
+          <a class="text-underline" href="mailto:pragatigupta168@gmail.com">
+  pragatigupta168@gmail.com
+</a>
+
+          </p>
+          <p class="color-offwhite">
+            For more info, here’s my
+          <a class="text-underline" href="resume.pdf" target="_blank">View Resume</a>
+
+          </p>
+          <div class="contact-section__socials">
+            <a href="https://www.linkedin.com/in/pragati-gupta-770bb424b" class="social-icons" target="_blank">
+                <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://github.com/PragatiGupta168/PragatiGupta168.git" class="social-icons" target="_blank">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://www.instagram.com/itz_pragati2701/" class="social-icons" target="_blank">
+                <i class="bx bxl-instagram"></i>
+            </a>
+        </div>        
+        </div>
+        <p class="contact-section__copyright body-small color-light-gray">
+          © 2023 Pragati Gupta. All rights reserved.
+        </p>
+
+        <form 
+  class="contact-section__form" 
+  id="form"
+  action="https://formspree.io/f/mgvzdlqj" 
+  method="POST"
+>
+  <div class="form__control">
+    <label class="form__label" for="fname">Name</label>
+    <input class="form__input" type="text" name="fname" id="fname" required />
+    <small></small>
+  </div>
+
+  <div class="form__control">
+    <label class="form__label" for="email">Email</label>
+    <input type="email" class="form__input" id="email" name="email" required />
+    <small></small>
+  </div>
+
+  <div class="form__control">
+    <label class="form__label" for="message">Message</label>
+    <textarea class="form__textarea" rows="5" name="message" id="message" required></textarea>
+    <small></small>
+  </div>
+
+  <div class="form__control">
+    <button type="submit" class="btn-submit">
+      <span class="text-action">Submit</span>
+    </button>
+  </div>
+</form>
+
+<script>
+const form = document.getElementById("form");
+const nameField = document.getElementById("fname");
+const emailField = document.getElementById("email");
+const messageField = document.getElementById("message");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  
+  if (checkInputs()) {
+    form.submit(); // ✅ Only submit if all fields are valid
+  }
+});
+
+function checkInputs() {
+  let isValid = true;
+
+  const nameValue = nameField.value.trim();
+  const emailValue = emailField.value.trim();
+  const messageValue = messageField.value.trim();
+
+  if (nameValue === "") {
+    setErrorInput(nameField, "Name cannot be blank.");
+    isValid = false;
+  } else {
+    setSuccessInput(nameField);
+  }
+
+  if (emailValue === "" || !validateEmail(emailValue)) {
+    setErrorInput(emailField, "Email format error.");
+    isValid = false;
+  } else {
+    setSuccessInput(emailField);
+  }
+
+  if (messageValue === "") {
+    setErrorInput(messageField, "Message cannot be blank.");
+    isValid = false;
+  } else {
+    setSuccessInput(messageField);
+  }
+
+  return isValid;
+}
+
+function setErrorInput(input, errorMessage) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector("small");
+  small.innerText = errorMessage;
+  formControl.className = "form__control error";
+}
+
+function setSuccessInput(input) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector("small");
+  formControl.className = "form__control success";
+  small.innerText = "";
+}
+
+function validateEmail(email) {
+  let regex =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return regex.test(String(email).toLowerCase());
+}
+</script>
+
+  </body>
+</html>

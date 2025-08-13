@@ -1,0 +1,18 @@
+/* === Spacing Fix for About Page === */
+
+/* Container ka side padding kam kiya */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Header ka padding compact */
+header {
+  padding: 16px 20px;
+}
+
+/* Contact section ka gap kam */
+.contact-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
